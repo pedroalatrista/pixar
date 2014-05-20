@@ -6,8 +6,8 @@
 
 }
 header{	width:900px;
-	height:50px;
-	background-color:black;
+		height:50px;
+		background-color:black;
 	}
 
 
@@ -57,15 +57,22 @@ section{
 }
 	.banner1{
 	background: purple;
-	width: 700px;
-	height: 350px;
+	width: 680px;
+	height: 320px;
 	float: left;
+	margin-left: 10px;
+	border-radius:10px;
+	margin-top: 20px;	
+
 	}
 	.banner2{
 	background: yellow;
-	width: 700px;
-	height: 350px;
+	width: 680px;
+	height: 320px;
 	float: left;
+	margin-left: 10px;
+	border-radius:10px;	
+	margin-top: 20px;	
 	}
 .cuerpo2{
 	background: green;
@@ -73,6 +80,52 @@ section{
 	height: 700px;
 	float: left;
 }
+.seccion1{
+		background-color:brown;
+		width:178px;
+		height:150px;
+		margin-left:10px;
+		float:left;	
+		padding-bottom:0px;
+		border-radius:10px;	
+		border: 1px solid gray;
+		margin-top: 20px;	
+}
+.seccion2{
+		background-color:brown;
+		width:178px;
+		height:150px;
+		margin-left:10px;
+		float:left;	
+		padding-bottom:5px;
+		border-radius:10px;	
+		border: 1px solid gray;	
+		margin-top: 12px;
+}
+.seccion3{
+		background-color:brown;
+		width:178px;
+		height:150px;
+		margin-left:10px;
+		float:left;	
+		padding-bottom:5px;
+		border-radius:10px;	
+		border: 1px solid gray;	
+		margin-top: 12px;
+}
+.seccion4{
+		background-color:brown;
+		width:178px;
+		height:150px;
+		margin-left:10px;
+		float:left;	
+		padding-bottom:5px;
+		border-radius:10px;	
+		border: 1px solid gray;	
+		margin-top: 12px;
+}
+
+
 .pie{
 	background: yellow;
 }
