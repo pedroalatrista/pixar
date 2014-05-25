@@ -1,4 +1,6 @@
+
 .contenedor{
+	font-family: arial;
 	background: black;
 	width: 900px;
 	height: 1000px;
@@ -42,7 +44,7 @@ section{
 		height:700px;
 		width:900px;
 		padding-bottom:10px;
-	}
+}
 
 .cuerpo{
 	background: orange;
@@ -56,7 +58,7 @@ section{
 	height: 700px;
 	float: left;
 }
-	.banner1{
+	.banner1, .banner2{
 	background: purple;
 	width: 680px;
 	height: 320px;
@@ -66,69 +68,54 @@ section{
 	margin-top: 20px;	
 
 	}
-	.banner2{
-	background: yellow;
-	width: 680px;
-	height: 320px;
-	float: left;
-	margin-left: 10px;
-	border-radius:10px;	
-	margin-top: 20px;	
-	}
+	
 .cuerpo2{
 	background: green;
 	width: 200px;
 	height: 700px;
 	float: left;
 }
-.seccion1{
+.seccion1, .seccion2, .seccion3, .seccion4{
 		background-color:brown;
-		width:178px;
+		width:170px;
 		height:150px;
 		margin-left:10px;
-		float:left;	
-		padding-bottom:0px;
-		border-radius:10px;	
-		border: 1px solid gray;
-		margin-top: 20px;	
+		float:left;
+		border-radius:10px;
+		margin-top: 20px;
+		box-shadow: 3px 3px #999;	
 }
-.seccion2{
-		background-color:brown;
-		width:178px;
-		height:150px;
-		margin-left:10px;
-		float:left;	
-		padding-bottom:5px;
-		border-radius:10px;	
-		border: 1px solid gray;	
-		margin-top: 12px;
+	.img1, .img2, .img3, .img4{
+		background-color:blue;
+		width:170px;
+		height:120px;
+		border-radius:10px 10px 0px 0px;
+	} 
+	.img1 img, .img2 img, .img3 img, .img4 img
+	{border-radius:10px 10px 0px 0px;
+	}
+
+/* Inicio del codigo para el
+Texto de todas las imagenes del bloque 
+derecho del SECTION*/
+.link{background: purple;
+	width: 170px;
+	height: 30px;
+	float: left;
+	border-radius: 0px 0px 10px 10px;
+	text-align: center;
 }
-.seccion3{
-		background-color:brown;
-		width:178px;
-		height:150px;
-		margin-left:10px;
-		float:left;	
-		padding-bottom:5px;
-		border-radius:10px;	
-		border: 1px solid gray;	
-		margin-top: 12px;
-}
-.seccion4{
-		background-color:brown;
-		width:178px;
-		height:150px;
-		margin-left:10px;
-		float:left;	
-		padding-bottom:5px;
-		border-radius:10px;	
-		border: 1px solid gray;	
-		margin-top: 12px;
-}
-
-
-
-
+.link a{font-size:18px;
+		color:white;
+		margin-left:8px;
+		text-decoration:none;
+	}
+.link a:hover{font-size:22px;
+			color:yellow;
+			margin-left:8px;
+			text-decoration:none;
+	}
+/* Final*/
 
 
 .pie{
@@ -146,12 +133,17 @@ section{
 	height: 30px;
 	float: left;
 }
-.menu_pie li{
-	display: block;
-	width: 200px;
+.menu_pie ul li a{
+	display: inline-block;
+	width: auto;
 	height: 30px;
 	background: purple;
 	float: left;
 	text-align: center;
 	font-weight: bold;
+	text-decoration: none;
+	color: pink;
+	padding-left: 20px;
+	padding-right: 15px;
+
 }
