@@ -15,9 +15,9 @@ header{	width:900px;
 .logo{	float:left;
 		width:180px;
 		height:36px;
-		margin-top:8px;
+		margin-top:10px;
 		margin-left:30px;
-		background: blue;
+		background: black;
 		}
 
 .menu_general ul{
@@ -37,51 +37,55 @@ header{	width:900px;
 		text-decoration:none;
 }
 ul{	list-style:none;}
-section{
+.menu_principal ul li a:hover{	
 		display:inline-block;
-		background-color:black;
-		height:700px;
-		width:900px;
+		margin-right:10px;
+		font-size:13px;
+		color:yellow;
+		margin-top:17px;
+		float:left;
+		text-decoration:none;
 }
 
-.cuerpo{
-	background: orange;
+
+section{
+	background: black;
 	width: 900px;
 	height: 700px;
 }
 
 .cuerpo1{
-	background: brown;
+	background: black;
 	width: 700px;
 	height: 700px;
 	float: left;
 }
 	.banner1, .banner2{
-	background: purple;
+	background: black;
 	width: 680px;
 	height: 320px;
 	float: left;
 	margin-left: 10px;
 	border-radius:10px;
-	margin-top: 20px;	
+	margin-top: 10px;	
 
 	}
 	
 .cuerpo2{
-	background: green;
+	background: black;
 	width: 200px;
 	height: 700px;
 	float: left;
 }
 .seccion1, .seccion2, .seccion3, .seccion4{
-		background-color:brown;
+		background-color:black;
 		width:170px;
 		height:150px;
 		margin-left:10px;
 		float:left;
 		border-radius:10px;
-		margin-top: 20px;
-		box-shadow: 3px 3px #999;	
+		margin-top: 10px;
+		box-shadow: 4px 4px #999;	
 }
 	.img1, .img2, .img3, .img4{
 		background-color:blue;
@@ -96,7 +100,8 @@ section{
 /* Inicio del codigo para el
 Texto de todas las imagenes del bloque 
 derecho del SECTION*/
-.link{background: purple;
+.link{
+	background: #667;
 	width: 170px;
 	height: 30px;
 	float: left;
@@ -108,7 +113,7 @@ derecho del SECTION*/
 		margin-left:8px;
 		text-decoration:none;
 	}
-.link a:hover{font-size:22px;
+.link a:hover{font-size:18px;
 			color:yellow;
 			margin-left:8px;
 			text-decoration:none;
@@ -116,35 +121,55 @@ derecho del SECTION*/
 /* Final*/
 
 
-.pie{
-	background: yellow;
-	padding-left: 10px;
+footer{
+	background: black;
 	width: 900px;
 	height: 30px;
 }
 .facebook{
 	background: blue;
-	width: 100px;
+	margin-left: 60px;
+	width: 30px;
 	height: 30px;
 	float: left;
 }
 .twitter{
 	background: pink;
-	width: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 30px;
 	height: 30px;
 	float: left;
 }
 .menu_pie ul li a{
+	
 	display: inline-block;
-	width: 200px;
-	height: 30px;
-	background: purple;
+	width: 120px;
+	height: 25px;
+	background: black;
 	float: left;
 	text-align: center;
 	font-weight: bold;
+	font-size: 14px;
 	text-decoration: none;
-	color: pink;
+	color: white;
 	padding-left: 10px;
-	padding-right: 15px;
-
+	padding-right: 10px;
+	padding-top: 5px;
+}
+.menu_pie ul li a:hover{
+	
+	display: inline-block;
+	width: 120px;
+	height: 25px;
+	background: black;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+	color: yellow;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
 }
